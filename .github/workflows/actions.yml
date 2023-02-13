@@ -1,8 +1,8 @@
 name: "Stock Price Notifier"
 
 on: 
-  push:
-    branches: [ master ]
+  schedule:
+    -cron: '46 21 * * *'  # testing trigger time
 
 jobs:
   build:
