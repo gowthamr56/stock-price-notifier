@@ -2,7 +2,7 @@ name: "Stock Price Notifier"
 
 on: 
   schedule:
-    - cron: '30 23 * * *'  # testing trigger time
+    - cron: '30 2 * * *'  # testing trigger time
 
 jobs:
   build:
