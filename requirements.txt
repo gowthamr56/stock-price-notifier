@@ -1,2 +1,2 @@
-jugaad_data==0.24
-twilio==7.16.3
+jugaad_data
+twilio
